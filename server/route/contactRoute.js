@@ -12,13 +12,14 @@ router.post("/contact", (req, res) => {
   ) {
     return res.json({ msg: "merci de remplir tous les champs" });
   }
-
+// here mailgun 
   let smtpTransporter = nodemailer.createTransport({
     host: "smtp.mailgun.org",
     port: 587,
     auth: {
-      user: "postmaster@sandboxd4d738ff6d1e441ca4f96a83206d7620.mailgun.org",
-      pass: "160fccbc14cdaf29fce36b6d4be6cc5e-adf6de59-0831b0fa",
+      user: 'postmaster@sandbox1026e11f3e7441099d175973d8a62cdb.mailgun.org',
+      pass: '3764c85747ccee2705a1f22e43d7fb33-30b9cd6d-b491ff33',
+      
     },
   });
   let mailOptions = {
@@ -35,6 +36,8 @@ router.post("/contact", (req, res) => {
             <p>${data.message}<p/>
             `,
   };
+  console.log("you are here !!!!!");
+  console.log("you are here !!!!!");
 
   smtpTransporter.sendMail(mailOptions, (error) => {
     try {

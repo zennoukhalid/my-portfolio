@@ -30,7 +30,7 @@ export const PortfolioProvider = ({ children, isKhalid }) => {
         setReferences(references)
       })
       .catch((error) => console.log(error))
-  }, [isKhalid])
+  }, [])
 
   const state = {
     works,
@@ -39,8 +39,7 @@ export const PortfolioProvider = ({ children, isKhalid }) => {
     educations,
     projects,
     references,
-    openLink,
-    isKhalid
+    openLink
   }
 
   return <PortfolioContext.Provider value={state}>{children}</PortfolioContext.Provider>

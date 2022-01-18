@@ -42,15 +42,16 @@ class Specilizing extends Component {
                 <div className="container">
                     <div className="background-inner bg-s2">
                         <div className="flat-title animate-element wow delay5 fadeInDown" data-wow-delay="0.5s">
-                        <h2 className="title-section color-d11 mg-b44 text-center">SPECILIZING IN</h2>
+                        <h2 className="title-section color-d11 mg-b44 text-center" style={{color: "orange"}}>SPECILIZING IN</h2>
                         </div>
                         <div className="row animate-element wow delay5 fadeInUp" data-wow-delay="0.5s">
                             {
                                 this.state.card.map(data => (
                                     <div className="col-lg-4" key={data.id}>
                                         <div className="iconbox-s2">
-                                            <div className={data.classimg}><img src={data.srcimg} alt={data.altimg} /></div>
-                                            <h3 className="title mg-b21"><Link to="#" className="color-d11">{data.title}</Link></h3>
+                                            <div className={data.classimg}>
+                                                <img src={data.srcimg} alt={data.altimg}/></div>
+                                            <h3 className="title mg-b21"><Link to="#" className="color-d11" style={{color: "orange"}}>{data.title}</Link></h3>
                                             <p className="color-d13">
                                             {data.text01} <br />{data.text02}
                                             </p>

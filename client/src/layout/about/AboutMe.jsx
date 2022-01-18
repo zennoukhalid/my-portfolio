@@ -15,7 +15,7 @@ class AboutMe extends Component {
                         If you need  PSD template, landing page or Website design within a day? then you can tell me, I'm here to help you. I can design any kind of PSD template. Check my portfolio.
                         </p>
                     </div>
-                    <h3 className="email position-relative">yourmail@email.com</h3>
+                    <h3 className="email position-relative">khalid1zennou@email.com</h3>
                 </div>
             </div>
         );

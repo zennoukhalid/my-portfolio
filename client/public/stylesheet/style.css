@@ -1283,9 +1283,9 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
 .banner-section.two-home .iconbox-s4 .avatar {
   transform: rotate(90deg);
 }
-.banner-section.s4 {
+/* .banner-section.s4 {
   background-image: url(../images/section/48.png);
-}
+} */
 .background-wrap {
   background-image: url(../images/section/49.jpg);
   background-size: cover;
@@ -2496,7 +2496,7 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
   background-color: #ffffff;
 }
 .experienced.s3 .background-inner.bg-s2 {
-  background-color: #19203f;
+  background-color: #212435;
 }
 
 /* sponsor

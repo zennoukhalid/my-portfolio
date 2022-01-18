@@ -11,11 +11,10 @@ function Banner() {
         <div className='content-text position-relative'>
           <div className='animate-element wow delay5 fadeInDown' data-wow-delay='0.3s'>
           <img className="fit-picture"
-          style={{maxWidth: "27%"}}
+          style={{marginTop: "-186px"}}
               src="/images/zinu.png"
                 alt="logo"/>
-                <br/>
-                <br/>
+              
             <div className='tag color-d1 lt-sp53 mg-b34'><b>{about.label}</b></div>
             <h1 className='cd-headline clip is-full-width title color-d11 mg-b41'>
               <span>Hello, </span>
@@ -41,24 +40,7 @@ function Banner() {
           <img src='images/section/558.jpg' alt='images' />
         </div>
       </div>
-      {/* <div
-        className='iconbox-s4 t2 color-s2 border-corner5 animate-element wow delay5 fadeZooming'
-        data-wow-delay='0.3s'
-      >
-        <div className='avatar position-relative'>
-          <img src='images/footer/01.jpg' alt='images' />
-        </div>
-        <div className='content-inner'>
-          <h4 className='name lt-sp04 mg-b16 text-white position-relative'>
-            Available for Project
-          </h4>
-          <div className='fl-btn btn-general'>
-            <Link to='#' className='text-white border-corner2'>
-              Hire Me
-            </Link>
-          </div>
-        </div>
-      </div> */}
+     
     </section>
   )
 }

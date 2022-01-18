@@ -67,7 +67,7 @@
             .find("ul.menu >li")
             .first()
             .before(
-              '<li id="logo" class="logo-mobi"><a href="index.html"><img src="images/logo/logo.png" alt="images" data-width="122" data-height="34" data-retina="images/logo/02@2x.png"></a></li>'
+              '<li id="logo" class="logo-mobi"><a href="index.html"><img src="images/logo/khalid.png" alt="images" data-width="122" data-height="34" data-retina="images/logo/02@2x.png"></a></li>'
             )
 
           $("#header").after($mobileMenu)

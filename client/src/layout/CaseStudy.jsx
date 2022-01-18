@@ -20,7 +20,9 @@ function CaseStudy() {
                 </div>
                 <div className="text-center">
                   <Link className="text-white" onClick={openLink.bind(this, project.githubUrl)}>
+                  <p style={{color:"orange"}}>
                     {project.displayName}
+                    </p>
                   </Link>
                 </div>
               </div>
@@ -30,7 +32,7 @@ function CaseStudy() {
           <div className="col-right animate-element wow delay5 fadeInUp" data-wow-delay="0.5s">
             <div className="flat-title t2 mg-b60">
               <h4 className="sub-title mg-b13">Portfolio</h4>
-              <h2 className="title-section color-d11 mg-b20">Few selected works.</h2>
+              <h2 className="title-section color-d11 mg-b20" style={{color: "orange"}}>Few selected works.</h2>
               <p className="color-d13">
                 I'm a professional web/mobile developer with 4 years of experience. My main focus is
                 on listening and understanding your users.
@@ -44,9 +46,12 @@ function CaseStudy() {
                       <img src={project.images[0]?.resolutions.desktop.url} alt="images" />
                     </Link>
                   </div>
-                  <div className="text-center">
+                  <div className="text-center" >
                     <Link className="text-white" onClick={openLink.bind(this, project.githubUrl)}>
-                      {project.displayName}
+                      <p style={{color:"orange"}}>
+                        {project.displayName}
+                      </p>
+                      
                     </Link>
                   </div>
                 </div>

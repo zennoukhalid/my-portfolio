@@ -11,17 +11,16 @@
     margin: 0 auto;
     flex-direction: column;
     justify-content: center;
-    background-color: #f09917;
-    background-image: url("./back-orange.jpg");
+    background-color: #212435;
 
   }
   
   h1 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 153, 58);
     font-family: "Poppins Bold";
     letter-spacing: 0.2rem;
     margin-bottom: 20px;
-    margin-left: 310px;
+    /* margin-left: 310px; */
   }
   
   .back-form {
@@ -53,7 +52,7 @@
   
   form label {
     margin-bottom: 5px;
-    color: #111;
+    color: rgb(247, 146, 63);
     letter-spacing: 0.2rem;
   }
   
@@ -64,16 +63,16 @@
     padding: 10px;
     color: var(--white);
     border-radius: 19px;
-    background-color: #171a2b;
+    background-color: #f7892f;
     font-size: 18px;
     width: 160px;
-    margin-left: 350px;
+    /* margin-left: 350px; */
   }
   
 
   .col i {
     padding: 10px;
-    color: #171a2b;
+    color: #f1952c;
   }
   .col i:hover {
     transform: scale(2);
